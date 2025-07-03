@@ -24,12 +24,8 @@
     '^com\\.microsoft\\.VSCode$',
     // VSCodium - Open Source VSCode
     '^com\\.vscodium$',
-    // Sublime Text
-    '^com\\.sublimetext\\.3$',
     // Kitty
     '^net\\.kovidgoyal\\.kitty$',
-    // Beyond Compare 4 & 5
-    '^com\\.ScooterSoftware',
   ],
 
   // bundle identifiers for remote desktop applications
@@ -44,10 +40,6 @@
   terminalEmulators: [
     // Alacritty (New)
     '^com\\.alacritty$',
-    // Alacritty (Old)
-    '^io\\.alacritty$',
-    // Hyper
-    '^co\\.zeit\\.hyper$',
     // iTerm2
     '^com\\.googlecode\\.iterm2$',
     // Terminal

@@ -51,6 +51,13 @@
     },
   },
 
+  input_no_optional(key, modifiers=null, key_is_modifier=false):: {
+    key_code: key,
+    [if key_is_modifier then null else 'modifiers']: {
+      [if modifiers != null then 'mandatory']: modifiers,
+    },
+  },
+
   // outputKey
   //
   // key (string, required)
